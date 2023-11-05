@@ -9,6 +9,13 @@ class Todo(models.Model):
 class User(models.Model):
     first_name = models.CharField(max_length=100)
 
+
+class Currency(models.Model):
+    name = models.CharField(max_length=100)
+
+# cmd + K
+# ctrl + K nebo alt + k
+
 # continuous integration
 # devops
 # git actions
