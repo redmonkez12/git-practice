@@ -9,6 +9,7 @@ class Todo(models.Model):
 class User(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
+    age = models.IntegerField()
 
 
 class Currency(models.Model):
